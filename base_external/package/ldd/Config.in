@@ -1,0 +1,4 @@
+config BR2_PACKAGE_LDD
+	bool "ldd"
+	help
+	  Include the ldd (Linux Device Drivers) support
