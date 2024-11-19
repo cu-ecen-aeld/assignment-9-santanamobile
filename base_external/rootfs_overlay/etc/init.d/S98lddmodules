@@ -67,11 +67,17 @@ unload_scull()
 # Main script logic
 case $1 in
     start)
+        echo "Load modules"
+        aesdchar_load
+        modprobe hello
         load_scull
         load_driver "faulty"
         load_driver "hello"
         ;;
     stop)
+        echo "Unload modules"
+        aesdchar_unload
+        rmmod hello
         unload_driver "hello"
         unload_driver "faulty"
         unload_scull
