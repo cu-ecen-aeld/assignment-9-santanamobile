@@ -4,7 +4,7 @@
 #
 ##############################################################
 
-AESD_CHARDRIVER_VERSION = 'a82245147522be2060c291c3b4b76dad1ca94ea6'
+AESD_CHARDRIVER_VERSION = '88ab4a722796e8fcdd80803a335bd5419f87c4cd'
 AESD_CHARDRIVER_SITE = 'git@github.com:cu-ecen-aeld/assignments-3-and-later-santanamobile.git'
 AESD_CHARDRIVER_SITE_METHOD = git
 AESD_CHARDRIVER_GIT_SUBMODULES = YES
